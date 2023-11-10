@@ -168,6 +168,7 @@ a:visited {
 
 
 /* reponsiveness */
+/* tablet mode */
 @media screen and (max-width: 1024px) {
   
   #logo{
@@ -263,8 +264,6 @@ a:visited {
     top: 900px;
     left: 300px;
   }
-
-
   .product {
     position: absolute;
     top: 50px;
@@ -287,4 +286,29 @@ a:visited {
     margin-left: 580px;
     color: whitesmoke;
   }
+}
+
+/* mobile phone */
+@media screen and (max-width: 375px) {
+  #search{
+    visibility: hidden;
+  }
+  #logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 20px;
+  }
+  ul{
+    position: absolute;
+    left: 100px;
+    font-size: 8px;
+    word-spacing: 6px;
+  }
+  #title{
+    position: absolute;
+    left: 140px;
+    width: 200px;
+  }
+  
 }
