@@ -1,0 +1,290 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 62.5%;
+}
+header {
+  height: 150px;
+  width: inherit;
+}
+#logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: absolute;
+  left:150px ;
+  top: 50px;
+}
+#title {
+  height: 150px;
+  width: 500px;
+  position: absolute;
+  left: 400px;
+}
+ul {
+  position: absolute;
+  left: 450px;
+  top: 160px;
+  word-spacing: 20px;
+}
+li {
+  display: inline;
+  text-decoration: none;
+}
+.nav_line {
+  height: 2px;
+  width: inherit;
+  background-color: black;
+  position: relative;
+  top: 25px;
+}
+a:visited {
+  color: black;
+}
+.ads_space {
+  height: 100px;
+  width: inherit;
+  background-color: red;
+  position: relative;
+  top: 30px;
+}
+.ads_box {
+  height: 50px;
+  width: 600px;
+  background-color: white;
+  position: relative;
+  left: 350px;
+  top: 20px;
+}
+#tele_img {
+  height: 400px;
+  width: 800px;
+  position: absolute;
+  top: 320px;
+  left: 300px;
+}
+.intro_space {
+  width: inherit;
+  height: 200px;
+  background-color: rgb(235, 233, 233);
+  position: relative;
+  top: 480px;
+}
+.intro_rectangle {
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  position: relative;
+  left: 450px;
+  top: 30px;
+  -webkit-transform: rotate(160deg);
+}
+.intro_rectangle_text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: large;
+  text-transform: uppercase;
+  position: absolute;
+  top: 820px;
+  left: 540px;
+  color: red;
+  letter-spacing: 2px;
+}
+.intro_rectangle_text2 {
+  font-family: serif;
+  font-weight: small;
+  font-size: small;
+  text-transform: capitalize;
+  position: absolute;
+  top: 870px;
+  left: 500px;
+  color: black;
+  letter-spacing: 2px;
+}
+.footer {
+  height: 400px;
+  width: inherit;
+  background-color: black;
+  position: relative;
+  top: 600px;
+}
+.product {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.expert_service {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  margin-left: 300px;
+  color: whitesmoke;
+}
+.support {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 30px;
+  margin-left: 550px;
+  color: whitesmoke;
+}
+.resources {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  margin-left: 800px;
+  color: whitesmoke;
+}
+.about_us {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  margin-left: 1100px;
+  color: whitesmoke;
+}
+#search {
+  position: absolute;
+  right: 200px;
+  top: 60px;
+}
+.build_your_website {
+  position: absolute;
+  top: 1000px;
+  left: 600px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-style: solid;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  z-index: 50;
+}
+
+
+/* reponsiveness */
+@media screen and (max-width: 1024px) {
+  
+  #logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 90px;
+
+  }
+  #title{
+    position: absolute;
+    left: 240px;
+    width: 300px;
+  }
+  #search{
+    position: absolute;
+    right:300px ;
+  }
+  ul{
+    position: absolute;
+    left: 230px;
+  }
+  li{
+    text-decoration: none;
+  }
+  #tele_img {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 200px;
+  }
+  hr{
+    width: 730px;
+    position: absolute;
+    left: 10px;
+  }
+  .nav_line{
+    width: 730px;
+    position: absolute;
+    left: 10px;
+    top: 185px;
+  }
+  .ads_space {
+    width: 730px;
+    position: absolute;
+    top: 200px;
+  }
+  .ads_box {
+    width: 300px;
+    position: absolute;
+    left: 230px;
+    top: 20px;
+   
+  }
+  .intro_space {
+    width: 730px;
+    position: relative;
+    top: 480px;
+  }
+  .intro_rectangle {
+    height: 180px;
+    width: 400px;
+    position: absolute;
+    left: 150px;
+    top: 55px;
+  }
+  .intro_rectangle_text {
+    font-weight: bold;
+    font-size: small;
+    text-transform: uppercase;
+    position: absolute;
+    top: 730px;
+    left: 280px;
+    letter-spacing: 2px;
+  }
+  .intro_rectangle_text2 {
+    font-family: serif;
+    font-weight: smaller;
+    font-size: small;
+    position: absolute;
+    top: 760px;
+    left: 220px;
+  }
+
+  .footer {
+    height: 400px;
+    width: 730px;
+    position: absolute;
+    top: 1000px;
+  }
+  .build_your_website {
+    position: absolute;
+    top: 900px;
+    left: 300px;
+  }
+
+
+  .product {
+    position: absolute;
+    top: 50px;
+    margin-left: 20px;
+  }
+  .expert_service {
+    position: absolute;
+    top: 50px;
+    margin-left: 200px;
+  }
+  .support {
+    position: relative;
+    top: 40px;
+    margin-left: 400px;
+    color: whitesmoke;
+  }
+  .resources {
+    position: absolute;
+    top: 40px;
+    margin-left: 580px;
+    color: whitesmoke;
+  }
+}
