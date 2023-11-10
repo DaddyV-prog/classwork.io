@@ -286,10 +286,16 @@ a:visited {
     margin-left: 580px;
     color: whitesmoke;
   }
+  .about_us{
+    visibility: hidden;
+  }
 }
 
 /* mobile phone */
 @media screen and (max-width: 375px) {
+  body{
+    overflow: hidden;
+  }
   #search{
     visibility: hidden;
   }
@@ -303,12 +309,86 @@ a:visited {
     position: absolute;
     left: 100px;
     font-size: 8px;
-    word-spacing: 6px;
+    word-spacing: 10px;
   }
   #title{
     position: absolute;
     left: 140px;
     width: 200px;
   }
-  
+  hr{
+    width: 375px;
+  }
+  .nav_line{
+    width: 375px;
+  }
+  .ads_space{
+    width: 375px;
+  }
+  .ads_box{
+    width: 200px;
+    position: absolute;
+    left: 90px;
+  }
+  #tele_img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 90px;
+  }
+  .intro_space {
+    width: 375px;
+    position: relative;
+    top: 440px;
+  }
+  .intro_rectangle {
+    height:200px;
+    width: 300px;
+    position: absolute;
+    left: 60px;
+    top: 5px;
+    
+  }
+  .intro_rectangle_text {
+    font-weight: bold;
+    font-size: small;
+    text-transform: uppercase;
+    position: absolute;
+    top: 650px;
+    left: 180px;
+    letter-spacing: 2px;
+  }
+  .intro_rectangle_text2 {
+    font-family: serif;
+    font-weight: small;
+    font-size: smaller;
+    text-transform: capitalize;
+    position: absolute;
+    top: 710px;
+    left: 120px;
+    color: black;
+    letter-spacing: 2px;
+  }
+  .build_your_website {
+    position: absolute;
+    top: 850px;
+    left: 150px;
+  }
+  .footer{
+    width: inherit;
+    position: absolute;
+    top: 950px;
+  }
+  .product{
+    margin-left: 40px;
+  }
+  .support{
+    visibility: hidden;
+  }
+  .resources{
+    visibility: hidden;
+  }
+  .about_us{
+    visibility: hidden;
+  }
 }
